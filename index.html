@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faceJS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h1 class="label">face
+                            <span class="text-muted">JS</span>
+                        </h1>
+                    </div>
+
+                    <div class="col-md-8">
+                        <h5 class="text-muted text-right font-italic">
+                            <span class=""></span>A smart solution to keep your connection </h5>
+                    </div>
+
+                </div>
+
+
+                <form id="form-add" class="needs-validation" novalidate>
+                    <div class="form-group">
+                        <input type="text" id="firstname" class="form-control" required placeholder="Firstname">
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="lastname" class="form-control" required placeholder="Lastname">
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="address" class="form-control" required placeholder="Address">
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="phone-number" class="form-control" required placeholder="Phone Number">
+                        <div class="invalid-feedback">
+                            Please provide phone number.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" class="form-control" required placeholder="Email">
+                        <div class="invalid-feedback">
+                            Make sure your email accessible
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn">Submit</button>
+                    <button type="reset" class="btn">Reset</button>
+                </form>
+
+                <div id="result-field">
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

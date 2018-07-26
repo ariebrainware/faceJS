@@ -1,0 +1,12 @@
+.container{
+    padding-top: 2%;
+}
+body{
+    background-color: #ade4b5
+}
+.wrapper{
+    padding: 7px;
+    background-color: #2E8856;
+    border-radius: 7px;
+    color: #3A4D13;
+}
