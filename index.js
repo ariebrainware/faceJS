@@ -20,8 +20,8 @@ let PEOPLE = get()
 // Form validation [Bootstrap 4]
 
 window.addEventListener('load', function () {
-    var forms = document.getElementsByClassName('needs-validation');
-    var validation = Array.prototype.filter.call(forms, function (form) {
+    let forms = document.getElementsByClassName('needs-validation');
+    let validation = Array.prototype.filter.call(forms, function (form) {
         form.addEventListener('submit', function (event) {
             event.preventDefault()
             if (form.checkValidity() === false) {
